@@ -52,7 +52,7 @@ return {
     dashboard.section.header.opts.hl = "AlphaHeader"
     dashboard.section.buttons.opts.hl = "AlphaButtons"
     dashboard.section.footer.opts.hl = "AlphaFooter"
-    dashboard.opts.layout[1].val = 1 -- 原来是8，这个是影响logo位于顶部的行数，0是顶头
+    dashboard.opts.layout[1].val = 3 -- 原来是8，这个是影响logo位于顶部的行数，0是顶头
     return dashboard
   end,
   config = function(_, dashboard)
