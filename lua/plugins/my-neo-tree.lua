@@ -84,6 +84,10 @@ return {
         },
         ["P"] = { "toggle_preview", config = { use_float = false } },
       },
+      filters = {
+        dotfiles = true, -- 显示隐藏文件
+        gitignore = false, -- 禁用 .gitignore 规则
+      },
     },
     default_component_configs = {
       indent = {
